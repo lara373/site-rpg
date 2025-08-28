@@ -33,7 +33,8 @@ h2 {
     font-size: 15px;
     font-family: Cinzel;
     margin: auto;
-    width: 763px;
+    /* width: 763px; */
+    width: 42.9%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +53,7 @@ h2 {
 }
 
 .opcao{
-    margin-left: 115px;
+    margin-left: 95px;
     margin-top: 15px;
     display: inline-block;
     border-radius: 5px;
@@ -72,4 +73,28 @@ h2 {
 h2{
     color: #e7d157;
 }
+
+@media (max-width: 1024px) {
+    .pai {
+        width: 755px;
+    }
+  }
+  
+@media (max-width: 768px) {
+    .pai {
+        width: 665px;
+    }
+    .opcao {
+        margin-left: 85px;
+    }
+  }
+
+@media (max-width: 480px) {
+    .pai {
+        width: 430px;
+    }
+    .opcao {
+        margin-left: 10px;
+    }
+  }
 
