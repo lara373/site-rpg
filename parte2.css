@@ -52,3 +52,22 @@ h2 {
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
+
+@media (max-width: 1024px) {
+    body {
+        margin-right: 295px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    body {
+        margin-left: -75px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+        margin-right: 488px;
+    }
+  }

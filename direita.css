@@ -56,4 +56,13 @@ h2{
     text-shadow: 0 0 8px white;
     transform: scale(1.05);
   }
+
+  @media (max-width: 480px) {
+    .pai {
+        width: 440px;
+    }
+    .opcao {
+        margin-left: 105px;
+    }
+  }
   

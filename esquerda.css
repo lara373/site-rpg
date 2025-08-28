@@ -62,3 +62,12 @@ span{
     text-shadow: 0 0 8px white;
     transform: scale(1.05);
 }
+
+  @media (max-width: 480px) {
+    .pai {
+        width: 450px;
+    }
+    .opcao {
+        margin-left: 20px;
+    }
+  }
